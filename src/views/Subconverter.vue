@@ -235,6 +235,20 @@ export default {
         backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
         remoteConfig: [
           {
+            label: "ACL4SSR",
+            options: [
+              {
+                label: "ACL_全分组 Dream 修改版",
+                value: "https://raw.githubusercontent.com/WC-Dream/ACL4SSR/WD/Clash/config/ACL4SSR_Online_Full_Dream.ini",
+                
+              },
+              {
+                label: "ACL_精简分组 Dream 修改版",
+                value: "https://raw.githubusercontent.com/WC-Dream/ACL4SSR/WD/Clash/config/ACL4SSR_Mini_Dream.ini",
+              }
+            ]
+          },
+          {
             label: "universal",
             options: [
               {
